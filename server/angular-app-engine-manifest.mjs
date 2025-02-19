@@ -1,6 +1,6 @@
 
 export default {
-  basePath: 'https://github.io/rabblerising/rabbleng',
+  basePath: 'https://rabblerising.github.io/rabbleng',
   supportedLocales: {
   "en-US": ""
 },
