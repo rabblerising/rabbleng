@@ -2,7 +2,7 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: 'https://github.io/rabblerising/rabbleng/',
+  baseHref: 'https://github.io/rabblerising/rabbleng',
   locale: undefined,
   routes: [
   {
@@ -12,9 +12,9 @@ export default {
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 531, hash: '4a996359c25f456c780176649b270a6a8998926ad76632fd7c1ecd7bf474c41b', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1044, hash: '74133007caf21ec4490625a3a0a078766f58e3712bd83eb6559ab7a38ada8e03', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'index.html': {size: 20871, hash: 'd14f103f490ec1724b7f662e1bd8b9457add65c9b3e124ceee38e57ec850ee8d', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 530, hash: '0ec0d70362a9f112cbc674ff2503cba37489c9c75237c7f31bcf8bd80ba22274', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1043, hash: '55b89c58a1d71da263152e71000adc9ce477e32578d381b7cad44e9c64d1ede1', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.html': {size: 20870, hash: '6a5e6a7f983111dee2bb9f2f2acbdf3237640464cfdc7e685fece97e58fef463', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
     'styles-5INURTSO.css': {size: 0, hash: 'menYUTfbRu8', text: () => import('./assets-chunks/styles-5INURTSO_css.mjs').then(m => m.default)}
   },
 };
